@@ -1,5 +1,3 @@
-# hsh-room
+# programmerspython
 
-print('Hello World!')
-
-It is changed.
+This is how to use the python that I studied.

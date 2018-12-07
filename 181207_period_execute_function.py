@@ -7,7 +7,7 @@ Created on Fri Dec  7 10:53:54 2018
 
 # 주기적으로 실행되는 함수 만들기
 #%%
-#
+## http://1byte.tistory.com/18
 import threading
 
 class AsyncTask:
@@ -18,7 +18,7 @@ class AsyncTask:
         print 'Process A'
         threading.Timer(1, self.TaskA).start()
         
-    def Task(self):
+    def TaskB(self):
         print 'Process B'
         threading.Timer(3, self.TaskB).start()
         

@@ -58,12 +58,11 @@ for i in range(0, num):
     # 상품 가격
     
     
-    soup_price = soup_itemL[i].find("span", class_="price")
+    soup_price = soup_itemL[i].find("strong")
     print(soup_price)
     if soup_price is not None:
         price_txt = soup_price.text
-        price_txt2 = price_txt.strip()
-        price_sales.append(price_txt2)
+        price_sales.append(price_txt)
     else:
         price_sales.append("")
 

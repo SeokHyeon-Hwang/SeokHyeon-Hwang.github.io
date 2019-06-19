@@ -6,7 +6,7 @@
 [3.]()  
 [4.]()  
 [5.]()  
-[6.]()  
+[6. 결측치](https://github.com/SeokHyeon-Hwang/with_python/blob/master/Pandas/Study/Doit_pandas/190616_pandas_06.ipynb)  
 [7.]()  
 [8.]()  
 [9.]()  
